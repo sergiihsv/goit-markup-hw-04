@@ -294,7 +294,6 @@ ul {
 .members {
   display: flex;
   margin-left: -30px;
-
   flex-wrap: wrap;
 }
 
