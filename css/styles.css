@@ -60,8 +60,8 @@ ul {
 /*HEADER*/
 
 .header {
-  padding-top: 31px;
-  padding-bottom: 31px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -259,6 +259,11 @@ ul {
 .our-works-items:not(:last-child) {
   margin-right: 30px;
 }
+
+.section-works {
+  padding-bottom: 94px;
+}
+
 /*OUR TEAM*/
 
 .section-team {
@@ -289,15 +294,20 @@ ul {
 .members {
   display: flex;
   margin-left: -30px;
-  margin-top: -50px;
+
   flex-wrap: wrap;
 }
 
 .members-item {
   flex-basis: calc(100% - 120px) / 4;
   margin-left: 30px;
-  margin-top: 50px;
 }
+
+.team-list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /* FOOTER */
 
 .footer {
@@ -403,7 +413,7 @@ ul {
 .menu-btn {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .list-btn:not(:last-child) {
