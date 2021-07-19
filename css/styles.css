@@ -141,6 +141,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 .tel {
@@ -312,11 +313,31 @@ ul {
 .team-list {
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social-list-item {
+  margin-right: 10px;
+}
+
+.social-list-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
 }
 
 .social-list-icon {
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
 }
 
 .social-list-link:hover,
@@ -327,13 +348,6 @@ ul {
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--secondary-text-color);
-}
-
-.social-list-link {
-  display: block;
-  width: 44px;
-  height: 44px;
-  fill: #afb1b8;
 }
 
 /* CLIENTS*/
