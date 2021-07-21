@@ -142,6 +142,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: flex;
+  align-items: c;
 }
 
 .tel {
@@ -167,10 +168,13 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("../images/hero/bg.jpg");
   background-size: cover;
+  max-width: 1600px;
+
+  background-repeat: no-repeat;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -293,6 +297,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .members {
@@ -319,35 +324,29 @@ ul {
 }
 
 .social-list {
-  list-style: none;
   display: flex;
-  justify-content: center;
-}
-
-.social-list-item {
-  margin-right: 10px;
-}
-
-.social-list-link {
-  display: block;
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
+  justify-content: space-between;
 }
 
 .social-list-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
   fill: var(--secondary-text-color);
+  background-color: var(--accent-color);
 }
 
 /* CLIENTS*/
@@ -435,6 +434,46 @@ ul {
 
 .footer-web {
   color: var(--accent-color);
+}
+
+.socials-footer-title {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.socials-footer-list {
+  display: flex;
+}
+
+.socials-list {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.socials-footer-icons {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border-color: var(--accent-color);
+}
+
+.social-icon-footer {
+  fill: var(--header-and-color-white);
+}
+
+.footer-socials {
+  margin-left: 70px;
+}
+
+.footer-container {
+  display: flex;
 }
 
 /*PORTFOLIO BUTTONS*/
