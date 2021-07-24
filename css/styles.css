@@ -32,7 +32,7 @@ img {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--secondary-text-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
 }
@@ -331,6 +331,7 @@ ul {
 .social-list-icon {
   width: 20px;
   height: 20px;
+  fill: var(--title-text-color);
 }
 
 .social-list-link {
@@ -340,12 +341,12 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: var(--secondary-text-color);
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-  fill: var(--secondary-text-color);
+  fill: #ffffff;
   background-color: var(--accent-color);
 }
 
