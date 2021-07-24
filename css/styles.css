@@ -7,6 +7,7 @@
   --background-color-2: #f5f4fa;
   --contacts-text-color: rgba(255, 255, 255, 0.6);
   --header-logo-color: #000000;
+  --clients-color: #afb1b8;
 }
 
 h1,
@@ -103,6 +104,11 @@ ul {
   margin-left: 50px;
 }
 
+.contact-email-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .header-web {
   color: var(--accent-color);
   font-family: Raleway;
@@ -142,7 +148,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: flex;
-  align-items: c;
+  align-items: center;
 }
 
 .tel {
@@ -152,6 +158,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .email:hover,
@@ -168,13 +176,14 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("../images/hero/bg.jpg");
   background-size: cover;
-  max-width: 1600px;
-
   background-repeat: no-repeat;
   margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -259,6 +268,21 @@ ul {
   margin-right: 30px;
 }
 
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-color-2);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.section-features {
+  padding-bottom: 94px;
+}
+
 /*OUR WORKS*/
 
 .our-works {
@@ -328,12 +352,6 @@ ul {
   justify-content: space-between;
 }
 
-.social-list-icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--title-text-color);
-}
-
 .social-list-link {
   display: flex;
   align-items: center;
@@ -342,11 +360,12 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-color: var(--secondary-text-color);
+  fill: var(--title-text-color);
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-  fill: #ffffff;
+  fill: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
 
@@ -380,7 +399,12 @@ ul {
 .client-icon {
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
+  fill: var(--clients-color);
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--accent-color);
 }
 
 /* FOOTER */
