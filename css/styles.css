@@ -405,6 +405,7 @@ ul {
 .clients-icon:hover,
 .clients-icon:focus {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* FOOTER */
