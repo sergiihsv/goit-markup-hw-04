@@ -387,14 +387,15 @@ ul {
 
 .clients-list {
   margin-right: 30px;
+  width: 170px;
+  height: 92px;
 }
 
 .clients-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 92px;
+
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -405,6 +406,11 @@ ul {
 .clients-icon:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+}
+
+.client-icon {
+  width: 100%;
+  height: 100%;
 }
 
 /* FOOTER */
