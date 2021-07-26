@@ -402,9 +402,13 @@ ul {
   fill: var(--clients-color);
 }
 
+.client-icon:hover,
+.client-icon:focus {
+  fill: var(--accent-color);
+}
+
 .clients-icon:hover,
 .clients-icon:focus {
-  fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
@@ -464,10 +468,12 @@ ul {
 
 .socials-footer-title {
   font-size: 14px;
-  margin: 0;
   margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.17;
 }
 
 .socials-footer-list {
@@ -491,7 +497,7 @@ ul {
 }
 
 .social-icon-footer {
-  fill: var(--header-and-color-white);
+  fill: var(--secondary-text-color);
 }
 
 .footer-socials {
@@ -499,7 +505,24 @@ ul {
 }
 
 .footer-container {
+  display: block;
+}
+
+.footer-wrapper {
   display: flex;
+}
+
+.socials-footer-lists {
+  display: flex;
+}
+
+.socials-footer-icons:hover,
+.socials-footer-icons:focus {
+  background-color: var(--accent-color);
+}
+
+.socials-item {
+  margin-left: 10px;
 }
 
 /*PORTFOLIO BUTTONS*/
