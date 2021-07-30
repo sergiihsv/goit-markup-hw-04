@@ -364,7 +364,7 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-color: var(--secondary-text-color);
-  fill: var(--title-text-color);
+  fill: var(--clients-color);
 }
 
 .social-list-link:hover,
@@ -395,7 +395,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
