@@ -382,6 +382,9 @@ ul {
 }
 .regular-clients-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .clients-list {
@@ -390,10 +393,17 @@ ul {
   height: 92px;
 }
 
+.clients__list {
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
 .clients-icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 92px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -404,11 +414,6 @@ ul {
 .clients-icon:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
-}
-
-.client-icon {
-  width: 100%;
-  height: 100%;
 }
 
 /* FOOTER */
